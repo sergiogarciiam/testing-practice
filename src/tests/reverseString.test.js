@@ -1,4 +1,4 @@
-import { reverseString } from "../functions";
+import reverseString from "../reverseString";
 
 test("reverse string one word", () => {
   const result = reverseString("hello");

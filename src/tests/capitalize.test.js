@@ -1,4 +1,4 @@
-import { capitalize } from "../functions";
+import capitalize from "../capitalize";
 
 test("capitalize normal", () => {
   const result = capitalize("hello");
